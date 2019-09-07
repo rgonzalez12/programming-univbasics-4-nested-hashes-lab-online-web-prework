@@ -127,5 +127,11 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-programmer_hash[:alan_kay][:known_for] = "Assembly"
+     
+if programmer_hash[:dennis_ritchie][:languages][1]
+shipping_manifest["top hat"] += 1
+else
+  puts "Key not found!"
+end
+#programmer_hash[:alan_kay][:known_for] = "Assembly"
 end
