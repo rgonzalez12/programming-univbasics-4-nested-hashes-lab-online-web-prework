@@ -123,11 +123,11 @@ def adding_to_dennis
           :languages => ["Smalltalk", "LISP"]
         },
         :dennis_ritchie => {
-          :known_for => ["Unix"],
+          :known_for => "Unix",
           :languages => ["C"]
         }
      }
-     #programmer_hash.merge!(languages: "bar")
+     programmer_hash.merge!(languages: "bar")
 #programmer_hash[:dennis_ritchie][:languages][1] = "Assembly"
 #programmer_hash[:alan_kay][:known_for] = "Assembly"
 end
