@@ -129,7 +129,7 @@ def adding_to_dennis
      }
      
 if programmer_hash[:dennis_ritchie][:languages][1]
-shipping_manifest["top hat"] += 1
+ += 1
 else
   puts "Key not found!"
 end
